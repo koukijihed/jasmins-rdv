@@ -6,6 +6,8 @@ responsable des données), données de démonstration et simulation complète de
 
 Aucune dépendance, aucune compilation : HTML + modules ES natifs.
 
+**Démo en ligne : https://koukijihed.github.io/jasmins-rdv/** — **Dépôt : https://github.com/koukijihed/jasmins-rdv**
+
 ---
 
 ## Démarrage
@@ -56,7 +58,8 @@ La page de connexion présente les quatre espaces avec des comptes préremplis :
 index.html            coquille HTML (police IBM Plex Sans Arabic, styles, point d'entrée)
 server.js             serveur statique Node sans dépendance (port 4173)
 src/
-  main.js             routeur par hash, en-tête/pied de page, gardes de rôle, polling 5 s
+  main.js             coquille, en-tête/pied de page, gardes de rôle, polling 5 s
+  router.js           navigation par hash (naviguer, rerendre, routeActuelle)
   db.js               magasin localStorage, règles métier, disponibilités, moteur SMS
   seed.js             jeu de données de démonstration (30 patients, 6 médecins, 26 RDV)
   slots.js            grille de créneaux de 20 min (8 h 30–13 h, 15 h–18 h)
