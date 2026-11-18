@@ -1,0 +1,11 @@
+{
+  "name": "jasmins-rdv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prototype R1 - Prise de rendez-vous en ligne, Polyclinique Les Jasmins (Sfax)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
